@@ -1,6 +1,6 @@
 # Git Alias 設定
 
-可以透過`git config --list`查看 \*~/.gitconfig\* 內的設定
+可以透過`git config --list`查看 *~/.gitconfig* 內的設定
 
 * git config --global alias.br branch
 * git config --global alias.co checkout
