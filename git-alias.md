@@ -18,7 +18,6 @@
 
 ### 加上顯示顏色的範例：
 
+``
 git config --global alias.lg "log --graph --pretty=format:'%C\(bold red\)%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold green\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"
-
-
-
+``
