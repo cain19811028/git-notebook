@@ -18,7 +18,23 @@
 * git config --global alias.ss "status -s"
 * git config --global alias.visual '!gitk'
 
+---
+
 ### 加上顯示顏色的範例：
 
-`git config --global alias.lg "log --graph --pretty=format:'%C\(bold red\)%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold green\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"`
+`git config --global alias.lg "log --graph --pretty=format:'%C(bold red)%h%Creset %C(bold cyan)<%an>%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit --date=relative"`
+
+#### 可用的預設顏色集
+
+* normal
+* black
+* blue
+* cyan
+* green
+* magenta
+* red
+* white
+* yellow
+
+
 
