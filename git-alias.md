@@ -12,12 +12,13 @@
 * git config --global alias.l "log --oneline --graph"
 * git config --global alias.ls 'log --graph --pretty=format:"%h &lt;%an&gt; %ar %s"
 * git config --global alias.last 'log -1 HEAD'
+* git config --global alias.pl pull
+* git config --global alias.ps push
 * git config --global alias.st status
 * git config --global alias.ss "status -s"
 * git config --global alias.visual '!gitk'
 
 ### 加上顯示顏色的範例：
 
-``
-git config --global alias.lg "log --graph --pretty=format:'%C\(bold red\)%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold green\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"
-``
+`git config --global alias.lg "log --graph --pretty=format:'%C\(bold red\)%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold green\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"`
+
